@@ -1,0 +1,49 @@
+#main .web-content .products-and-blogs .preview-products .highlight-products .products-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#main .web-content .products-and-blogs .preview-products .highlight-products .products-container .product {
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#main .web-content .products-and-blogs .preview-products .highlight-products .products-container .product img {
+    width: 95%;
+    border-radius: 5px;
+}
+
+#main .web-content .products-and-blogs .preview-products .highlight-products .products-container .product .product-short-detail {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: -50px;
+    background-color: #ffffffaa;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#main .web-content .products-and-blogs .preview-products .highlight-products .products-container .product .product-short-detail:hover {
+    background-color: #ffffffda;
+    transition: .6s;
+}
+
+#main .web-content .products-and-blogs .preview-products .highlight-products .products-container .product .product-short-detail .product-price {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+#main .web-content .products-and-blogs .preview-products .highlight-products .products-container .product .product-short-detail .product-name {
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #000;
+}

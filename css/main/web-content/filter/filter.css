@@ -1,0 +1,51 @@
+#main .web-content .filter {
+    width: 100%;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 2px 5px 0px #c6c6c6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#main .web-content .filter .filter-blogs {
+    width: 200px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid #616161;
+}
+
+#main .web-content .filter .filter-products {
+    width: calc(100% - 200px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#main .web-content .filter .filter-blogs .filter-icon {
+    margin: 0 10px;
+}
+
+#main .web-content .filter .filter-products .filter-icon {
+    margin: 0 10px;
+}
+
+#main .web-content .filter .filter-blogs .filter-icon i,
+#main .web-content .filter .filter-blogs .filter-icon span {
+    font-size: 14px;
+    color: #616161;
+    margin-bottom: 4px;
+}
+
+#main .web-content .filter .filter-products .filter-icon i,
+#main .web-content .filter .filter-products .filter-icon span {
+    font-size: 14px;
+    color: #616161;
+    margin-bottom: 4px;
+}

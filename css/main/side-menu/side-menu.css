@@ -1,0 +1,40 @@
+#main .side-menu {
+    width: 48px;
+    height: 100vh;
+    padding-top: 10px;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main .side-menu .side-menu-icon {
+    width: 32px;
+    height: 32px;
+    margin: 0 0 10px 0;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .6s;
+}
+
+#main .side-menu .fas.fa-horizontal-rule {
+    color: #616161;
+}
+
+#main .side-menu .side-menu-icon:hover {
+    background-color: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: .6s;
+}
+
+#main .side-menu .side-menu-icon i {
+    color: #616161;
+}
+
+#main .side-menu .side-menu-icon i:hover {
+    color: #379237;
+}

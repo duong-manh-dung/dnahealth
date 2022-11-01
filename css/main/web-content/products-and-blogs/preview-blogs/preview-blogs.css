@@ -1,0 +1,87 @@
+#main .web-content .products-and-blogs .preview-blogs {
+    overflow: scroll;
+    scroll-behavior: smooth;
+    width: 200px;
+    height: calc(100vh - 129.5px);
+    padding-bottom: 50px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+#main .web-content .products-and-blogs .preview-blogs .blog {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#main .web-content .products-and-blogs .preview-blogs .blog .preview-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#main .web-content .products-and-blogs .preview-blogs .blog .card {
+    margin-top: 8px;
+}
+
+#main .web-content .products-and-blogs .preview-blogs .blog .card .post-like {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+#main .web-content .products-and-blogs .preview-blogs .blog .card .post-like .post-like-left i {
+    margin: 0 15px 0 0;
+}
+
+#main .web-content .products-and-blogs .preview-blogs .blog .card .post-like .post-like-right i {
+    margin: 0 0 0 15px;
+}
+
+#main .web-content .products-and-blogs .preview-blogs .blog .card .author {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+#main .web-content .products-and-blogs .preview-blogs .blog .card .author img {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+#main .web-content .products-and-blogs .preview-blogs .blog .card .author .author-name {
+    font-size: 14px;
+}
+
+#main .web-content .products-and-blogs .preview-blogs .blog .preview-img img {
+    width: 200px;
+    border-radius: 5px;
+}
+
+#main .web-content .products-and-blogs .preview-blogs .blog .card .title p {
+    font-weight: 700;
+    color: #379237;
+}
+
+#main .web-content .products-and-blogs .preview-blogs .blog .card .content {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+#main .web-content .products-and-blogs .preview-blogs .blog .card .create-at {
+    margin-top: 8px;
+}
+
+#main .web-content .products-and-blogs .preview-blogs .blog .card .create-at p {
+    font-size: 12px;
+    font-style: italic;
+    color: #616166;
+}

@@ -1,0 +1,136 @@
+#header {
+    width: 100%;
+    height: 48px;
+    position: fixed;
+    background-color: #54B435;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#header .menu-logo {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#header .search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#header .management {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#header .menu-logo .menu-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#header .menu-logo .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#header .search-bar .search-icon {
+    width: 32px;
+    height: 32px;
+    background-color: #ffffffb3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px 0 0 3px;
+}
+
+::placeholder {
+    font-family: 'Open Sans', sans-serif;
+    color: #0c3b5e;
+    margin-left: 30px;
+}
+
+#header .search-bar .input-search {
+    width: 350px;
+    height: 32px;
+    border: 0;
+    border-radius: 0 3px 3px 0;
+    padding: 7px;
+    background-color: #ffffffb3;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#header .search-bar .input-search:focus {
+    outline: none;
+}
+
+#header .menu-logo .menu-icon:hover {
+    background-color: #379237;
+    transition: .6s ease-in-out;
+}
+
+#header .management .tools {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#header .menu-logo .menu-icon .fas.fa-bars {
+    color: #fff;
+    font-size: 20px;
+}
+
+#header .menu-logo .logo p {
+    margin-bottom: 3px;
+    margin-left: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#header .search-bar .search-icon .fas.fa-search {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: 5px;
+    padding: 10px;
+    min-width: 40px;
+    font-size: 14px;
+    background-color: transparent;
+    color: #0c3b5e;
+    transform: rotate(90deg);
+}
+
+#header .management .tools .tool-icon {
+    margin: 0 15px;
+}
+
+#header .management .account .account-avatar {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#header .management .tools .tool-icon i {
+    color: #fff;
+}
+
+#header .management .account .account-avatar img {
+    border-radius: 50%;
+}

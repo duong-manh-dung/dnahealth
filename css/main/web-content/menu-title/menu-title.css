@@ -1,0 +1,21 @@
+#main .web-content .menu-title {
+    padding: 10px;
+}
+
+#main .web-content .menu-title .title-link {
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #000;
+    margin: 0 10px 0 0;
+}
+
+#main .web-content .menu-title .title-link:hover {
+    color: #0c3b5e;
+    transition: .6s;
+}
+
+#main .web-content .menu-title .title-link.active {
+    font-weight: 700;
+    text-decoration: underline;
+}

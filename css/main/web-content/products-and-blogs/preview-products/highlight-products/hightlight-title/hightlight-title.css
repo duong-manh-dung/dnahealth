@@ -1,0 +1,24 @@
+#main .web-content .products-and-blogs .preview-products .highlight-products .hightlight-title {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+#main .web-content .products-and-blogs .preview-products .highlight-products .hightlight-title .title {
+    width: 450px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+#main .web-content .products-and-blogs .preview-products .highlight-products .hightlight-title .hightlight-short-desc {
+    width: 500px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 2.5;
+    text-align: left;
+    margin-right: 20px;
+}

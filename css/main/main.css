@@ -1,0 +1,7 @@
+#main {
+    width: 100%;
+    position: fixed;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+}

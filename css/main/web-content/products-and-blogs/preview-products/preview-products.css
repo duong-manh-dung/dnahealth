@@ -1,0 +1,8 @@
+#main .web-content .products-and-blogs .preview-products {
+    overflow: scroll;
+    scroll-behavior: smooth;
+    width: calc(100% - 200px);
+    height: calc(100vh - 129.5px);
+    padding-bottom: 50px;
+    border-radius: 5px;
+}

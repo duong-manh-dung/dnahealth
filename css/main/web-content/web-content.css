@@ -1,0 +1,5 @@
+#main .web-content {
+    width: calc(100% - 48px);
+    background-color: #fafafa;
+    padding: 10px 20px;
+}

@@ -1,0 +1,67 @@
+#main .web-content .products-and-blogs .preview-products .products-and-email {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#main .web-content .products-and-blogs .preview-products .products-and-email .email-register {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main .web-content .products-and-blogs .preview-products .products-and-email .product-picture {
+    width: 100%;
+    font-size: 0;
+    line-height: 0;
+}
+
+#main .web-content .products-and-blogs .preview-products .products-and-email .product-picture img {
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+}
+
+#main .web-content .products-and-blogs .preview-products .products-and-email .email-register h1 {
+    font-size: 64px;
+}
+
+#main .web-content .products-and-blogs .preview-products .products-and-email .email-register h2 {
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+#main .web-content .products-and-blogs .preview-products .products-and-email .email-register p {
+    font-weight: 100;
+    font-style: italic;
+}
+
+#main .web-content .products-and-blogs .preview-products .products-and-email .email-register form {
+    margin: 20px 0;
+}
+
+#main .web-content .products-and-blogs .preview-products .products-and-email .email-register form input:first-child {
+    width: 200px;
+    padding: 10px;
+    border: 0;
+    border-radius: 3px 0 0 3px;
+    background-color: #fafafa;
+}
+
+#main .web-content .products-and-blogs .preview-products .products-and-email .email-register form input:last-child {
+    padding: 10px;
+    background-color: #e14d2a;
+    border: 0;
+    border-radius: 0 3px 3px 0;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#main .web-content .products-and-blogs .preview-products .products-and-email .email-register form input:last-child:hover {
+    transition: .6s;
+    background-color: #e14c2ac3;
+}
